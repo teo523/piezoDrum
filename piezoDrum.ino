@@ -13,7 +13,7 @@ void setup() {
   MIDI.begin();
   Serial.begin(115200);
 
-  piezoPin  = A0;
+  piezoPin  = A5;
   piezoPin2  = A2;
   piezoPin3  = A1;
   threshold = 20;
